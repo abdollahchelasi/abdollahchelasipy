@@ -5,8 +5,11 @@ from streamlit_option_menu import option_menu
 st.set_page_config(page_title="عبدالله چلاسی - طراح و برنامه نویس",page_icon="images/a.jpg",layout="wide")
 
 
+
+
 with open('c.css') as f:
     st.markdown(f"<style> {f.read()} </style>",unsafe_allow_html=True)
+
 
 
 selected = option_menu (
@@ -28,6 +31,7 @@ selected = option_menu (
 
 
 
+st.markdown("[🖥 فروشگاه آموزشی دیجی کد 🖥](https://digicode.streamlit.app/)")
 
 
 
@@ -41,8 +45,13 @@ if selected == "صفحه اصلی":
             st.write("##")
             st.write("""
             """)
+            st.video('abdollah.mp4')
+            st.video('a.mp4')
 
         with right_column:
+            st.divider()
+            st.success("ABDOLLAH CHELASI")
+            st.divider()
             st.image("https://cdn.dribbble.com/users/1118376/screenshots/3604186/developer-dribbble.gif")
 
     
@@ -59,6 +68,15 @@ if selected == "صفحه اصلی":
                 st.write("""
     زیورآلات رز یکی از بهترین جواهرات و طلافروشی ها با بهترین محصولات و مناسب ترین قیمت در جزیره زیبای قشم می باشد.    """)
                 st.markdown("[Rose jewelry](https://roz.vercel.app)")
+        
+        with col1:
+            with st.expander(" فروشگاه دیجی کد " ,expanded=True):
+                st.image("images/digicode.png")
+                st.write("""
+                         فروشگاه آموزشی دیجی کد با کلی سورس های آماده و اینکه بتونم با کدهای کمتری یک برنامه کامل بسازم و اینکه سعی میکنم کسانی که برنامه نویسی بلد نیستن و علاقه دارن همچین پروژه هایی بسازن و نمیخوان خیلی درگیر برنامه نویسی باشن پروژه هایی که با علامت ✨ روی پروژه ها برچسب زده شده رو اینجور پروژه ها برنامه های کامل زده شده و کد کمتری دارن
+                         """)
+                st.markdown("[دیجی کد](https://digicode.streamlit.app/)")
+        
         with col2:
 
             with st.expander("وب سایت خدمات پی وی سی - رمکان",expanded=True):
@@ -130,7 +148,7 @@ if selected == "صفحه اصلی":
                     st.image("images/gorbedan.png")
                     st.write("""
     باشگاه فوتبال دلفین گربدان یکی از پرافتخارترین و پرطرفدارترین باشگاه های جزیره قشم است. دلفین گربدان قبل از انقلاب ستاره جنوب گربدان نامیده می شد. این باشگاه اکنون در دسته دوم قشم قرار دارد. دلفین گربدان در سال 1324 در جزیره قشم روستای گربدان تأسیس شد. قرار داده شده است        """)
-                    st.markdown("[Delfin Gorbadan](http://gorbedan.ir/)")
+                    st.markdown("[Delfin Gorbadan](https://gorbedan.vercel.app)")
         
             
                        
