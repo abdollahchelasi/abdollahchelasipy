@@ -110,6 +110,17 @@ form{
     margin-top: 10px;
 
 }
+video{
+    border-radius: 11px;
+    border-style: groove;
+    height: 150px;
+}
+video:hover{
+    box-shadow: rgb(25, 201, 34) 2px 2px 9px;
+
+}
+
+
 
 a{
     background: linear-gradient(to left ,rgb(189, 80, 80),rgb(5, 5, 41));
