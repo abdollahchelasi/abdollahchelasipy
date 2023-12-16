@@ -12,6 +12,14 @@ with open('c.css') as f:
 
 
 
+
+
+
+
+
+
+
+
 selected = option_menu (
     menu_title=None,
     options=["تماس با ما","صفحه اصلی"],
@@ -59,6 +67,21 @@ if selected == "صفحه اصلی":
         st.write("---")
         st.success("نمونه کارهای من")
         st.write("##")
+        
+        c1 , c2 = st.columns(2)
+
+        with c1:
+    
+
+            if st.text_input("< CYBER SECURITY >") == "@":
+    
+                st.markdown("[💻 Followers + Instagram 💻](https://followers.streamlit.app/)")
+
+
+
+            st.divider()
+
+
 
         col1,col2,col3=st.columns((3))
 
