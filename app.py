@@ -79,7 +79,7 @@ if selected == "صفحه اصلی":
 
 
 
-            st.divider()
+        st.divider()
 
 
 
