@@ -72,7 +72,7 @@ if selected == "صفحه اصلی":
 
         with c1:
     
-
+            
             if st.text_input("< CYBER SECURITY >") == "@":
     
                 st.markdown("[💻 Followers + Instagram 💻](https://followers.streamlit.app/)")
@@ -108,7 +108,20 @@ if selected == "صفحه اصلی":
     اجرای نصب پی وی سی در سراسر جزیره قشم        """)
                 st.markdown("[Pvc-Ramkan](http://pvcahmad.ir)")
             
+
+        
+        with col2:
+
+            with st.expander("VeTube",expanded=True):
+                st.image("images/hotel.png")
+                st.write("""
+            VeTube - Garden City Hotel Dubai
+""")
+                st.markdown("[VeTube - Dubai](http://vetube.streamlit.app)")
+            
     
+
+
         with col3:
                 with st.expander("دکوراسیـون شادمان - رمکان" ,expanded=True):
                     st.image("images/upvc.png")
