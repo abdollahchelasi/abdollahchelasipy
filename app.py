@@ -48,8 +48,9 @@ if selected == "صفحه اصلی":
     with st.container():
         left_column,right_column = st.columns(2)
         with left_column:
-            st.error("""
-طراحی سایت با بهترین کیفیت در کمترین زمان    """)
+#             st.error("""
+# طراحی سایت با بهترین کیفیت در کمترین زمان    """)
+            st.markdown("# :rainbow[طراحی سایت با بهترین کیفیت در کمترین زمان]")
             st.write("##")
             st.write("""
             """)
