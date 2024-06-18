@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 from annotated_text import annotated_text
 
-st.set_page_config(page_title="عبدالله چلاسی - طراح و برنامه نویس",page_icon="a.jpg",layout="wide")
+st.set_page_config(page_title="عبدالله چلاسی - طراح و برنامه نویس",page_icon="images/a.jpg",layout="wide")
 
 
 
@@ -134,14 +134,14 @@ if selected == "نمونه کار":
 
         with col1:
             with st.expander(" فروشگاه جواهری رز" ,expanded=True):
-                st.image("roz.png")
+                st.image("images/roz.png")
                 st.write("""
     زیورآلات رز یکی از بهترین جواهرات و طلافروشی ها با بهترین محصولات و مناسب ترین قیمت در جزیره زیبای قشم می باشد.    """)
                 st.markdown("[Rose jewelry](https://roz.vercel.app)")
         
         with col1:
             with st.expander(" فروشگاه دیجی کد " ,expanded=True):
-                st.image("digicode.png")
+                st.image("images/digicode.png")
                 st.write("""
                          فروشگاه آموزشی دیجی کد با کلی سورس های آماده و اینکه بتونم با کدهای کمتری یک برنامه کامل بسازم و اینکه سعی میکنم کسانی که برنامه نویسی بلد نیستن و علاقه دارن همچین پروژه هایی بسازن و نمیخوان خیلی درگیر برنامه نویسی باشن پروژه هایی که با علامت ✨ روی پروژه ها برچسب زده شده رو اینجور پروژه ها برنامه های کامل زده شده و کد کمتری دارن
                          """)
@@ -150,7 +150,7 @@ if selected == "نمونه کار":
         with col2:
 
             with st.expander("وب سایت خدمات پی وی سی - رمکان",expanded=True):
-                st.image("pvc.png")
+                st.image("images/pvc.png")
                 st.write("""
     اجرای نصب پی وی سی در سراسر جزیره قشم        """)
                 st.markdown("[Pvc-Ramkan](http://pvcahmad.ir)")
@@ -160,7 +160,7 @@ if selected == "نمونه کار":
         with col2:
 
             with st.expander("VeTube",expanded=True):
-                st.image("hotel.png")
+                st.image("images/hotel.png")
                 st.write("""
             VeTube - Garden City Hotel Dubai
 """)
@@ -171,7 +171,7 @@ if selected == "نمونه کار":
 
         with col3:
                 with st.expander("دکوراسیـون شادمان - رمکان" ,expanded=True):
-                    st.image("upvc.png")
+                    st.image("images/upvc.png")
                     st.write("""
     تولیدی درب و پنجره یو پی وی سی نوین ترک , فروش و نصب پی وی سی , طراحی یا ساخت و اجرای انواع سایبان پی وی سی        """)
                     st.markdown("[Dekorasion Shademan](http://pvcshademan.ir)")
@@ -185,7 +185,7 @@ if selected == "نمونه کار":
                 
 
             with st.expander("دکوراسیون لنج محمد" ,expanded=True):
-                st.image("dekor.png")
+                st.image("images/dekor.png")
                 st.write("""
                              خدمات دکوراسیون لنج
                              """)
@@ -204,7 +204,7 @@ if selected == "نمونه کار":
 
         with col1:
             with st.expander("خدمات اینترنتی طالب" ,expanded=True):
-                st.image("taleb.png")
+                st.image("images/taleb.png")
                 st.write("""
     خدمات نمایندگی طالب با نصب اولیه وای فای رایگان و شارژ اینترنتی اینترنتی و فروش تجهیزات وای فای با قیمت های مختلف در سراسر جزیره قشم    """)
                 st.markdown("[Taleb internet services](https://taleb.vercel.app/)")
@@ -212,14 +212,14 @@ if selected == "نمونه کار":
 
         with col2:
             with st.expander("عمر الزبير المرزوقي" ,expanded=True):
-                st.image("omar.png")
+                st.image("images/omar.png")
                 st.write("""
     اول حكم يكسر قاعدة احتكار حكام أوربا على نهائيات كاس العالم لكرة اليد """)
                 st.markdown("[عمر الزبير المرزوقي](https://omarzubair.vercel.app/)")
         
             with col2:
                 with st.expander("Mazaya Car Rental, Dubai" ,expanded=True):
-                    st.image("mazaya.png")
+                    st.image("images/mazaya.png")
                     st.write("""
     🇦🇪 اجاره ماشین مازایا، دبی 🇦🇪    """)
                     st.markdown("[Mazaya Car Rental Dubai](https://mazaya-cars.vercel.app/)")
@@ -228,7 +228,7 @@ if selected == "نمونه کار":
             with col1:
 
                 with st.expander("⚽ باشگاه دلفین گربدان ⚽" ,expanded=True):
-                    st.image("gorbedan.png")
+                    st.image("images/gorbedan.png")
                     st.write("""
     باشگاه فوتبال دلفین گربدان یکی از پرافتخارترین و پرطرفدارترین باشگاه های جزیره قشم است. دلفین گربدان قبل از انقلاب ستاره جنوب گربدان نامیده می شد. این باشگاه اکنون در دسته دوم قشم قرار دارد. دلفین گربدان در سال 1324 در جزیره قشم روستای گربدان تأسیس شد. قرار داده شده است        """)
                     st.markdown("[Delfin Gorbadan](https://gorbedan.vercel.app)")
@@ -240,7 +240,7 @@ if selected == "نمونه کار":
 
                 with st.expander("دکوراسیون شادمان" ,expanded=True):
                     
-                    st.image("sh.png")
+                    st.image("images/sh.png")
                     st.write("""
                              دکوراسیون شادمان
                              """)
@@ -252,7 +252,7 @@ if selected == "نمونه کار":
 
                 with st.expander("نقاش علی اکبر بندرعباس" ,expanded=True):
                     
-                    st.image("naqash.png")
+                    st.image("images/naqash.png")
                     st.write("""
                              خدمات نقاشی علی اکبر در سر تا سر بندرعباس
                              """)
@@ -266,7 +266,7 @@ if selected == "نمونه کار":
 
                 with st.expander("خبر3" ,expanded=True):
                     
-                    st.image("kh.png")
+                    st.image("images/kh.png")
                     st.write("""
                              آخرین خبرهای ورزشی رو دنبال کنید
                              """)
@@ -299,7 +299,7 @@ if selected == "تماس با ما":
 
         with imgabdollah:
 
-            st.image("a.jpg",caption="00989335825325",width=200)
+            st.image("images/a.jpg",caption="00989335825325",width=200)
 
         with abdollah:
 
